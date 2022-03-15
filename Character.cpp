@@ -108,8 +108,9 @@ void Character::resetAndBoostAttribute(int& initialValue, int& currentValue)
 {
     if(currentValue < initialValue)
     {
-            currentValue = initialValue;
+        currentValue = initialValue;
     }
+    
     currentValue *= 1.1f;
     initialValue = currentValue;
 }
