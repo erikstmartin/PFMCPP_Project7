@@ -19,8 +19,3 @@ std::string Dwarf::getStats()
 {
     return getCharacterStats(this);
 }
-
-void Dwarf::attack(Character& opponent)
-{
-    Character::attack(opponent);
-}

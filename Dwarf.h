@@ -7,7 +7,6 @@ struct Dwarf : Character
 
     const std::string& getName() override;
     std::string getStats() override;
-    void attack(Character& opponent) override;
 private:
     const std::string name;
 };
